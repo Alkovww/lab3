@@ -40,7 +40,7 @@ def trap_rain_water(height_map):
     return water
 
 def pour_water(matrix, i0, j0, volume):
-    """Имитация налива воды в конкретную позицию (задача b)"""
+
     M, N = len(matrix), len(matrix[0])
     water = [[0]*N for _ in range(M)]
     water[i0][j0] += volume
